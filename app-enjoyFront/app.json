@@ -1,0 +1,61 @@
+{
+  "expo": {
+    "name": "App Enjoy v0.1.6",
+    "version": "0.1.6",
+    "slug": "enjoy-app",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "description": "APP ENJOY",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#010200"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "buildNumber": "1",
+      "bundleIdentifier": "com.dominio.enjoy-app",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This application uses the camera to scan QR codes of products and start scheduled visits",
+        "NSLocationUsageDescription": "This application uses the user's location to schedule visits close to the user",
+        "NSLocationWhenInUseUsageDescription": "This application uses the user's location to schedule visits close to the user",
+        "NSLocationAlwaysUsageDescription": "This application uses the user's location to schedule visits close to the user"
+      }
+    },
+    "android": {
+      "versionCode": 5,
+      "package": "com.dominio.enjoy_app",
+      "permissions": [ "NOTIFICATIONS" ],
+      "config": {},
+      "googleServicesFile": "./google-services.json"
+    },
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": [
+        "expo.ts",
+        "expo.tsx",
+        "expo.js",
+        "expo.jsx",
+        "ts",
+        "tsx",
+        "js",
+        "jsx",
+        "json",
+        "wasm",
+        "svg"
+      ]
+    }
+  }
+}
